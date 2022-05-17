@@ -10,6 +10,6 @@ const spanNomeCognomeColore = document.getElementById(`nome-cognome-colore`);
 
 spanNomeCognomeColore.innerHTML =`<strong class="text-primary">
                               ${nomeUtente} ${cognomeUtente}
-                            </strong><br>                             
+                            </strong>                             
                             <small>ti piace ${colorePreferito} come colore 22.</small>`;
 console.log(spanNomeCognomeColore);
